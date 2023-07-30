@@ -1,0 +1,39 @@
+//- Head
+include head.pug
+
+//- Main
+main
+	section.profile
+		img(class="profile__avatar" src="../images/avatar.webp" alt="My avatar")
+		h2.profile__name Kid Bourbon
+		h3.profile__title Game and Web Developer
+		a(href="#" class="profile__button") Follow
+		.statistic--profile
+			+stats("12k", "Followers")
+			+stats("1.7k", "Following")
+			+stats("48", "Articles")
+		.profile__minibio
+			h2 About me
+			h3 Junior game developer with Unity and junior front-end developer with HTML, CSS and JS.
+		.location--profile
+			i.fas.fa-map-marker-alt
+			.location__distance
+				h2 Cuba
+				h3 82km Near
+		.gallery
+			h2 My Photos
+			.gallery__all-photos
+				img(src="../images/poster-gamer.webp" alt="Poster with all my favorite things" class="gallery__main-photo")
+				img(src="../images/kid-bourbon-logo.webp" alt="A logo created by a friend" class="gallery__extra-photo")
+				img(src="../images/knight-monsters-arena-main-menu.webp" alt="Main menu of my game Knight, monsters and arena"  class="gallery__extra-photo")
+				img(src="../images/knight.webp" alt="Screenshot of the main character of my game Knight, monsters and arena" class="gallery__extra-photo")
+				img(src="../images/bea-gift-first-level.webp" alt="First level of my game Bea's gift" class="gallery__extra-photo")
+				img(src="../images/bea-gift-second-level.webp" alt="Second level of my game Bea's gift" class="gallery__extra-photo")
+				img(src="../images/bea-gift-third-level.webp" alt="Third level of my game Bea's gift" class="gallery__extra-photo")
+				img(src="../images/bea-gift-fourth-level.webp" alt="Fourth level of my game Bea's gift" class="gallery__extra-photo")
+	aside.articles
+		+article("Playstation", "Moonlighter: A Gem in the PlayStation Plus Lineup","Moonlighter presents a unique gameplay experience where players take on the role of Will, a shopkeeper. Will’s goal is to make a living by managing his shop and satisfying customers. Each day, players stock the shelves, interact with customers, catch thieves, and negotiate prices. With the profits earned, players can expand the store and even establish additional shops in the village.")
+		+article("Switch", "Nintendo Updates Pikmin 4 To Version 1.0.1","Pikmin 4 isn't out on the Switch yet, but Nintendo has already released a new update ahead of its launch later this week. Preorders and preloads for Pikmin 4 are also live on the Switch eShop. It will take up about 10.4GB of space. If you have preinstalled the game, your own copy should already be on Version 1.0.1.")
+		+article("Xbox", "Final Fantasy XIV Online Coming to Xbox","During the Final Fantasy XIV Fan Festival, Xbox head Phil Spencer announced that Final Fantasy XIV Online will finally be available on Xbox Series X|S in the Spring of 2024. This news was well-received by fans of Xbox and Square Enix, who hope that it signifies a positive future for the relationship between the two companies.")
+
+		
