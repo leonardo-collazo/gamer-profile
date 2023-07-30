@@ -1,0 +1,22 @@
+.statistic--profile {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 60%;
+	max-width: 300px;
+	min-height: 90px;
+	margin: 0 auto;
+	@include box;
+
+	h3 {
+		font-weight: 600;
+		font-size: 20rem;
+		text-align: center;
+		@include titles($font-2);
+	}
+	span {
+		font-size: 12rem;
+		text-align: center;
+		@include titles($font-2);
+	}
+}

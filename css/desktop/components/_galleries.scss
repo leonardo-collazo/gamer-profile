@@ -1,0 +1,33 @@
+.gallery {
+	width: 80%;
+	height: auto;
+	margin: 40px auto;
+	padding: 20px;
+	@include box;
+
+	&__all-photos {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: flex-start;
+		align-items: flex-start;
+		gap: 10px;
+	}
+	&__main-photo {
+		max-width: 200px;
+		max-height: 200px;
+	}
+	&__extra-photo {
+		max-width: 150px;
+		max-height: 150px;
+	}
+	h2 {
+		margin-bottom: 10px;
+		font-weight: 600;
+		font-size: 20px;
+		@include titles($font-2);
+	}
+	img {
+		border-radius: 10px;
+		vertical-align: top;
+	}
+}

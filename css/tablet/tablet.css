@@ -1,0 +1,14 @@
+main {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.profile {
+  width: 100%;
+}
+
+.articles {
+  width: 100%;
+}
