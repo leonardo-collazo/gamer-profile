@@ -12,14 +12,6 @@
 		align-items: flex-start;
 		gap: 10px;
 	}
-	&__main-photo {
-		max-width: 200px;
-		max-height: 200px;
-	}
-	&__extra-photo {
-		max-width: 150px;
-		max-height: 150px;
-	}
 	h2 {
 		margin-bottom: 10px;
 		font-weight: 600;
@@ -27,7 +19,8 @@
 		@include titles($font-2);
 	}
 	img {
+		max-width: 200px;
+		max-height: 200px;
 		border-radius: 10px;
-		vertical-align: top;
 	}
 }

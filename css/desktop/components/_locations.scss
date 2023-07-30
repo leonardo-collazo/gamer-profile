@@ -4,9 +4,10 @@
 	align-items: center;
 	gap: 10px;
 	width: 50%;
-	max-width: 300px;
-	height: 90px;
+	max-width: 220px;
+	min-height: 90px;
 	margin: 0 auto;
+	padding: 0 10px;
 	@include box;
 
 	i {

@@ -126,9 +126,10 @@ main {
           align-items: center;
   gap: 10px;
   width: 50%;
-  max-width: 300px;
-  height: 90px;
+  max-width: 220px;
+  min-height: 90px;
   margin: 0 auto;
+  padding: 0 10px;
   border-radius: 20px;
   -webkit-box-shadow: 0px 20px 33px 0px rgba(0, 0, 0, 0.5);
           box-shadow: 0px 20px 33px 0px rgba(0, 0, 0, 0.5);
@@ -188,14 +189,6 @@ main {
           align-items: flex-start;
   gap: 10px;
 }
-.gallery__main-photo {
-  max-width: 200px;
-  max-height: 200px;
-}
-.gallery__extra-photo {
-  max-width: 150px;
-  max-height: 150px;
-}
 .gallery h2 {
   margin-bottom: 10px;
   font-weight: 600;
@@ -204,8 +197,9 @@ main {
   text-transform: uppercase;
 }
 .gallery img {
+  max-width: 200px;
+  max-height: 200px;
   border-radius: 10px;
-  vertical-align: top;
 }
 
 .articles {
