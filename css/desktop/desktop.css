@@ -59,7 +59,7 @@ main {
   text-align: center;
   font-weight: bold;
   font-size: 12rem;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.75);
 }
 .profile__button {
   display: block;
@@ -161,7 +161,7 @@ main {
   font-size: 12rem;
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
-  color: rgba(51, 51, 51, 0.5);
+  color: rgba(51, 51, 51, 0.7);
 }
 
 .gallery {

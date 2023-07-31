@@ -29,7 +29,7 @@
 		h3 {
 			font-size: 12rem;
 			@include titles($font-2);
-			color: get-opacity($color-primary, 0.5);
+			color: get-opacity($color-primary, 0.7);
 		}
 	}
 }

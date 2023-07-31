@@ -1,9 +1,11 @@
+// Variables
 $font-1: "Lato", sans-serif;
 $font-2: "Oswald", sans-serif;
 $color-primary: #333333;
 $color-secondary: #165000;
 $color-light: #ffffff;
 
+// Mixins
 @mixin box {
 	border-radius: 20px;
 	box-shadow: 0px 20px 33px 0px rgba(0, 0, 0, 0.5);
@@ -20,10 +22,12 @@ $color-light: #ffffff;
 	}
 }
 
+// Functions
 @function get-opacity($color, $level) {
 	@return rgba($color, $level);
 }
 
+// Loops
 @each $header, $size in (h1: 30rem, h2: 25rem, h3: 20rem) {
 	#{$header} {
 		font-size: $size;
