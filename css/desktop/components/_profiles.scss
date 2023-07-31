@@ -17,6 +17,7 @@
 		@include titles($font-2);
 	}
 	&__title {
+		padding: 0 30px;
 		text-transform: uppercase;
 		text-align: center;
 		font-weight: bold;

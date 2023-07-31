@@ -55,6 +55,7 @@ main {
   text-transform: uppercase;
 }
 .profile__title, .profile__minibio h3 {
+  padding: 0 30px;
   text-transform: uppercase;
   text-align: center;
   font-weight: bold;
